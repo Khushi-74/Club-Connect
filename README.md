@@ -1,9 +1,6 @@
-# Club-Connect-android-app.
-Club Connect is a user-friendly Android app that helps students of College to  connect based on shared interests and activities. It enables Club Leader to create clubs, post events, With Club Connect, users can discover new clubs, stay updated on events. 
 # Club Connect - Social Networking Android App
 
-Club Connect is a user-friendly Android application that facilitates social networking based on shared interests and activities. The app allows users to create profiles, join clubs, organize events, and connect with like-minded individuals. It provides a platform for discovering new clubs, staying updated on events, and fostering meaningful connections within a vibrant community.
-
+Club Connect is a user-friendly Android app that helps students of College to  connect based on shared interests and activities. It enables Club Leader to create clubs, post events, With Club Connect, users can discover new clubs, stay updated on events. 
 ## Key Features
 
 - **User Profiles:** Create personalized profiles with profile pictures and interests.
