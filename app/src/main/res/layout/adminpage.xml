@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9C27B0"
+    android:backgroundTint="#FCB4FF"
+    android:backgroundTintMode="src_over"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".AdminActivity">
+
+    <TextView
+        android:id="@+id/textWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="121dp"
+        android:layout_marginEnd="119dp"
+        android:text="Welcome to Admin Page"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnCreateClub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textWelcome"
+        android:layout_marginTop="198dp"
+        android:text="Create Club" />
+
+    <Button
+        android:id="@+id/btnPostEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnCreateClub"
+        android:layout_marginTop="58dp"
+        android:text="Post Event" />
+
+    <ImageButton
+        android:id="@+id/logoutadminbtn"
+        android:layout_width="90dp"
+        android:layout_height="66dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="269dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="649dp"
+        android:contentDescription="@string/switch_for_enabling_notifications"
+        app:srcCompat="@android:drawable/btn_dialog" />
+
+
+</RelativeLayout>
